@@ -14,7 +14,7 @@ function typeWriter(element) {
 
 function makeRandom(length) {
   let result = "";
-  let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@$&*:;?=+-";
   let charactersLength = characters.length;
 
   for (let i = 0; i < length; i++) {
@@ -66,17 +66,12 @@ const arrayNames = generateNames();
 var index = 0;
 
 const decodeEffect = setInterval(() => {
-  document.getElementById("name").setAttribute("name", arrayNames[index]);
-  document.getElementById("name").innerHTML = arrayNames[index];
+  const name = document.getElementById("name");
 
-  if (index === arrayNames.length - 1) {
-    clearInterval(decodeEffect);
-    setTimeout(() => {
-      document.getElementById("name").className = "glitch glitchEffect";
-    }, 250);
-  } else {
-    index++;
-  }
+  name.setAttribute("name", arrayNames[index]);
+  name.innerHTML = arrayNames[index];
+
+  index === arrayNames.length - 1 ? clearInterval(decodeEffect) : index++;
 }, 50);
 
 const title = document.getElementById("text");
