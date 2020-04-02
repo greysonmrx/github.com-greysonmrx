@@ -28,7 +28,7 @@ button {
 
 #home {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 #home .wrapper {
@@ -215,7 +215,7 @@ button {
 
 #about {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 #about .wrapper {
@@ -321,7 +321,7 @@ button {
 
 #projects {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 #projects .wrapper {
@@ -363,7 +363,7 @@ button {
 
 #projects .wrapper .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-rows: 1fr 1fr;
   grid-gap: 30px;
   margin-top: 50px;
