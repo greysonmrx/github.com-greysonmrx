@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+
+  h1 {
+    margin: auto;
+  }
+
+  /* #-#-#-#-#-#-#-#-#-#-#-# START: HOME #-#-#-#-#-#-#-#-#-#-#-# */
+
+  #home .wrapper .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #home .wrapper .content img {
+    display: none;
+  }
+
+  #home .wrapper .content .first {
+    align-items: center;
+    text-align: center;
+  }
+
+  /* #-#-#-#-#-#-#-#-#-#-#-# END: HOME #-#-#-#-#-#-#-#-#-#-#-# */
+
+  /* #-#-#-#-#-#-#-#-#-#-#-# START: ABOUT #-#-#-#-#-#-#-#-#-#-#-# */
+
+  #about .wrapper .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about .wrapper .content img {
+    width: 50%;
+  }
+
+  #about .wrapper .content .bio {
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #about .wrapper .content .skills {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  /* #-#-#-#-#-#-#-#-#-#-#-# END: ABOUT #-#-#-#-#-#-#-#-#-#-#-# */
+}
