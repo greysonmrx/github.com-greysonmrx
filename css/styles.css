@@ -101,6 +101,18 @@ button {
   letter-spacing: 2px;
 }
 
+#home .wrapper .content .first p::after {
+  content: "";
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 15px;
+  height: 7px;
+  margin-left: 5px;
+  background: #ffffff;
+  animation: blink 0.7s infinite ease;
+}
+
 #home .wrapper .content .first .buttons {
   display: flex;
   margin-top: 50px;
