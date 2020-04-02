@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-size: 14px;
+  background: #000000;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button {
+  font-size: 18px;
+}
+
+button {
+  cursor: pointer;
+}
