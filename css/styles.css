@@ -314,3 +314,111 @@ button {
 }
 
 /* #-#-#-#-#-#-#-#-#-#-#-# END: ABOUT #-#-#-#-#-#-#-#-#-#-#-# */
+
+/* #-#-#-#-#-#-#-#-#-#-#-# START: PROJECTS #-#-#-#-#-#-#-#-#-#-#-# */
+
+#projects {
+  width: 100%;
+  height: 100%;
+}
+
+#projects .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1500px;
+  padding: 50px;
+  margin: auto;
+}
+
+#projects .wrapper h1 {
+  font-size: 3.5em;
+  font-family: "Mont DEMO";
+  color: #06ec90;
+}
+
+#projects .wrapper a {
+  font-family: "ModeSeven";
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #06ec90;
+  height: 50px;
+  width: 300px;
+  text-decoration: none;
+  color: #212529;
+  outline: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 50px auto;
+}
+
+#projects .wrapper a:hover {
+  transform: scale(1.1);
+}
+
+#projects .wrapper .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#projects .wrapper .projects .project {
+  background: #171717;
+  width: 30%;
+  padding: 25px;
+  margin: 10px 0;
+  transition: all 0.2s ease 0s;
+}
+
+#projects .wrapper .projects .project:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+#projects .wrapper .projects .project img {
+  width: 100%;
+}
+
+#projects .wrapper .projects .project .details {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Electrolize";
+}
+
+#projects .wrapper .projects .project .details header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#projects .wrapper .projects .project .details header h3 {
+  font-size: 1.6em;
+}
+
+#projects .wrapper .projects .project .details header a {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.2s ease 0s;
+  margin: 0;
+}
+
+#projects .wrapper .projects .project .details header a:hover {
+  transform: scale(1.1);
+}
+
+#projects .wrapper .projects .project .details span {
+  font-size: 1.05em;
+  color: #aaaaaa;
+  line-height: 25px;
+}
+/* #-#-#-#-#-#-#-#-#-#-#-# END: PROJECTS #-#-#-#-#-#-#-#-#-#-#-# */
