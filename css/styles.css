@@ -491,3 +491,61 @@ button {
 }
 
 /* #-#-#-#-#-#-#-#-#-#-#-# END: CONTACT #-#-#-#-#-#-#-#-#-#-#-# */
+
+/* #-#-#-#-#-#-#-#-#-#-#-# START: FOOTER #-#-#-#-#-#-#-#-#-#-#-# */
+
+footer {
+  width: 100%;
+  height: 180px;
+  background: #171717;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1500px;
+  padding: 50px;
+  margin: auto;
+}
+
+footer .wrapper img {
+  height: 50px;
+}
+
+footer .wrapper .links {
+  display: flex;
+}
+
+footer .wrapper .links a {
+  text-decoration: none;
+  font-family: "Electrolize";
+  color: #ffffff;
+  font-size: 1.2em;
+  margin: 0 10px;
+  transition: all 0.2s;
+}
+
+footer .wrapper .links a:hover {
+  opacity: 0.5;
+}
+
+footer .wrapper .socials {
+  display: flex;
+}
+
+footer .wrapper .socials a {
+  transition: transform 0.2s ease;
+}
+
+footer .wrapper .socials a:hover {
+  transform: scale(1.2);
+}
+
+footer .wrapper .socials a img {
+  height: 25px;
+  margin: 0 10px;
+}
+
+/* #-#-#-#-#-#-#-#-#-#-#-# END: FOOTER #-#-#-#-#-#-#-#-#-#-#-# */
