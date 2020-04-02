@@ -422,3 +422,72 @@ button {
   line-height: 25px;
 }
 /* #-#-#-#-#-#-#-#-#-#-#-# END: PROJECTS #-#-#-#-#-#-#-#-#-#-#-# */
+
+/* #-#-#-#-#-#-#-#-#-#-#-# START: CONTACT #-#-#-#-#-#-#-#-#-#-#-# */
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+#contact .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 1500px;
+  padding: 50px;
+  margin: auto;
+}
+
+#contact .wrapper header {
+  text-align: center;
+}
+
+#contact .wrapper header h1 {
+  font-size: 3.5em;
+  font-family: "Mont DEMO";
+  color: #06ec90;
+}
+
+#contact .wrapper header h3 {
+  font-size: 2em;
+  font-family: "Electrolize";
+  color: #212529;
+  margin: 15px 0;
+}
+
+#contact .wrapper .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+#contact .wrapper .email input {
+  width: 40%;
+  height: 50px;
+  padding: 0 20px;
+  font-family: "Electrolize";
+  border: 3px solid #06ec90;
+  background: transparent;
+  color: #ffffff;
+}
+
+#contact .wrapper .email button {
+  height: 50px;
+  padding: 0 20px;
+  font-family: "Electrolize";
+  border: none;
+  outline: none;
+  background: #06ec90;
+  transition: all 0.2s;
+}
+
+#contact .wrapper .email button:hover {
+  filter: opacity(0.8);
+}
+
+/* #-#-#-#-#-#-#-#-#-#-#-# END: CONTACT #-#-#-#-#-#-#-#-#-#-#-# */
