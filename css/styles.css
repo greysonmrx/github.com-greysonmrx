@@ -24,6 +24,21 @@ button {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Electrolize";
+  src: url(../fonts/electrolize.ttf);
+}
+
+@font-face {
+  font-family: "ModeSeven";
+  src: url(../fonts/modes.ttf);
+}
+
+@font-face {
+  font-family: "Mont DEMO";
+  src: url(../fonts/mont-bold.otf);
+}
+
 /* #-#-#-#-#-#-#-#-#-#-#-# START: HOME #-#-#-#-#-#-#-#-#-#-#-# */
 
 #home {
