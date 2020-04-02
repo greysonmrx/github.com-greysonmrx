@@ -153,6 +153,7 @@ button {
   outline: none;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #home .wrapper .content .first .buttons a::after {
