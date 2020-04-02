@@ -362,19 +362,16 @@ button {
 }
 
 #projects .wrapper .projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
   margin-top: 50px;
 }
 
 #projects .wrapper .projects .project {
   background: #171717;
-  width: 30%;
   padding: 25px;
-  margin: 10px 0;
   transition: all 0.2s ease 0s;
 }
 
