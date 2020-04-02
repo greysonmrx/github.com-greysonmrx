@@ -77,7 +77,7 @@ button {
 
 #home .wrapper .content .first h3 {
   color: #ffffff;
-  font-size: 3.3em;
+  font-size: 3.3rem;
   font-family: "Electrolize";
   font-weight: 400;
   letter-spacing: 2px;
@@ -88,7 +88,7 @@ button {
   position: relative;
   color: #06ec90;
   font-family: "Mont DEMO";
-  font-size: 8.5em;
+  font-size: 8.5rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -117,7 +117,7 @@ button {
 
 #home .wrapper .content .first p {
   font-family: "ModeSeven";
-  font-size: 1.3em;
+  font-size: 1.3rem;
   width: 466px;
   line-height: 40px;
   letter-spacing: 2px;
@@ -229,7 +229,7 @@ button {
 }
 
 #about .wrapper h1 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
   font-family: "Mont DEMO";
   color: #06ec90;
 }
@@ -241,7 +241,7 @@ button {
 }
 
 #about .wrapper .content h1 {
-  font-size: 2.2em;
+  font-size: 2.2rem;
   font-family: "Electrolize";
   color: #212529;
   margin-bottom: 30px;
@@ -258,7 +258,7 @@ button {
 }
 
 #about .wrapper .content .bio p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-family: "ModeSeven";
   color: #ffffff;
   line-height: 35px;
@@ -310,7 +310,7 @@ button {
 }
 
 #about .wrapper .content .skills .skill span {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-family: "ModeSeven";
   color: #ffffff;
 }
@@ -334,7 +334,7 @@ button {
 }
 
 #projects .wrapper h1 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
   font-family: "Mont DEMO";
   color: #06ec90;
 }
@@ -445,13 +445,13 @@ button {
 }
 
 #contact .wrapper header h1 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
   font-family: "Mont DEMO";
   color: #06ec90;
 }
 
 #contact .wrapper header h3 {
-  font-size: 2em;
+  font-size: 2rem;
   font-family: "Electrolize";
   color: #212529;
   margin: 15px 0;
@@ -521,7 +521,7 @@ footer .wrapper .links a {
   text-decoration: none;
   font-family: "Electrolize";
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin: 0 10px;
   transition: all 0.2s;
 }
