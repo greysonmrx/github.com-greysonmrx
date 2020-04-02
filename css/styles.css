@@ -84,6 +84,7 @@ button {
 }
 
 #home .wrapper .content .first h1 {
+  position: relative;
   color: #06ec90;
   font-family: "Mont DEMO";
   font-size: 8.5em;
@@ -91,6 +92,26 @@ button {
   text-transform: uppercase;
   letter-spacing: 6px;
   margin-bottom: 45px;
+}
+
+#home .wrapper .content .first .glitchEffect:before,
+#home .wrapper .content .first .glitchEffect:after {
+  content: attr(name);
+  position: absolute;
+  overflow: hidden;
+  background-color: #000;
+}
+
+#home .wrapper .content .first .glitchEffect:before {
+  left: 3px;
+  text-shadow: 2px 0 #00ffea;
+  animation: glitch 2s infinite linear;
+}
+
+#home .wrapper .content .first .glitchEffect:after {
+  left: 3px;
+  text-shadow: 2px 0 #f2327f;
+  animation: glitch 3s infinite linear;
 }
 
 #home .wrapper .content .first p {
