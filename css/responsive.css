@@ -7,8 +7,6 @@
     margin: auto;
   }
 
-  /* #-#-#-#-#-#-#-#-#-#-#-# START: HOME #-#-#-#-#-#-#-#-#-#-#-# */
-
   #home .wrapper .content {
     flex-direction: column;
     align-items: center;
@@ -22,10 +20,6 @@
     align-items: center;
     text-align: center;
   }
-
-  /* #-#-#-#-#-#-#-#-#-#-#-# END: HOME #-#-#-#-#-#-#-#-#-#-#-# */
-
-  /* #-#-#-#-#-#-#-#-#-#-#-# START: ABOUT #-#-#-#-#-#-#-#-#-#-#-# */
 
   #about .wrapper .content {
     flex-direction: column;
@@ -47,6 +41,124 @@
     width: 50%;
     margin-top: 50px;
   }
+}
 
-  /* #-#-#-#-#-#-#-#-#-#-#-# END: ABOUT #-#-#-#-#-#-#-#-#-#-#-# */
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  #home .wrapper .content .first p {
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-size: 14px;
+  }
+
+  #home .wrapper .content .first .buttons {
+    flex-direction: column;
+  }
+
+  #home .wrapper .content .first .buttons .know-more {
+    width: 100%;
+  }
+
+  #home .wrapper .content .first .buttons .cv {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #about .wrapper .content img {
+    width: 100%;
+  }
+
+  #about .wrapper .content .bio {
+    width: 100%;
+  }
+
+  #about .wrapper .content .skills {
+    width: 100%;
+  }
+
+  #about .wrapper .content .bio p {
+    font-size: 1em;
+  }
+
+  #about .wrapper .content .skills span {
+    font-size: 0.8em;
+  }
+
+  #contact .wrapper .email {
+    flex-direction: column;
+  }
+
+  #contact .wrapper .email input {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #contact .wrapper .email button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 50%;
+  }
+
+  #home .wrapper .content .first p {
+    line-height: 25px;
+    font-size: 12px;
+  }
+
+  #projects .wrapper .projects {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  footer .wrapper .links {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  #home .wrapper header {
+    justify-content: center;
+  }
+
+  #home .wrapper header .socials {
+    display: none;
+  }
+
+  #home .wrapper .content .first h1 {
+    font-size: 50px;
+  }
+
+  #home .wrapper .content .first .buttons a {
+    font-size: 14px;
+    height: 50px;
+  }
+
+  #projects .wrapper a {
+    font-size: 14px;
+    height: 50px;
+    width: 225px;
+  }
+
+  footer .wrapper {
+    justify-content: center;
+  }
+
+  footer .wrapper .socials {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  #home .wrapper .content .first h3 {
+    font-size: 20px;
+  }
+
+  #home .wrapper .content .first h1 {
+    font-size: 40px;
+  }
 }

@@ -118,7 +118,7 @@ button {
 #home .wrapper .content .first p {
   font-family: "ModeSeven";
   font-size: 1.3rem;
-  width: 466px;
+  max-width: 466px;
   line-height: 40px;
   letter-spacing: 2px;
 }
@@ -241,7 +241,7 @@ button {
 }
 
 #about .wrapper .content h1 {
-  font-size: 2.2rem;
+  font-size: 2.2em;
   font-family: "Electrolize";
   color: #212529;
   margin-bottom: 30px;
@@ -258,7 +258,7 @@ button {
 }
 
 #about .wrapper .content .bio p {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-family: "ModeSeven";
   color: #ffffff;
   line-height: 35px;
@@ -288,7 +288,7 @@ button {
 #about .wrapper .content .skills .skill progress {
   -webkit-appearance: none;
   appearance: none;
-  width: calc(100% - 150px);
+  width: calc(100% - 140px);
   height: 10px;
   margin-right: 20px;
 }
@@ -310,7 +310,7 @@ button {
 }
 
 #about .wrapper .content .skills .skill span {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   font-family: "ModeSeven";
   color: #ffffff;
 }
